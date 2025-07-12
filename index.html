@@ -3,97 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Omolara Adeboye</title>
+  <title>Omolara Adeboye | Cloud Automation + Financial Systems</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <script defer src="js/script.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Omolara Adeboye</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-        </button>
-      </nav>
-    </div>
+    <h1>Omolara Adeboye</h1>
+    <p>Cloud Infrastructure Expert & Personal Finance Educator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#youtube">YouTube Channel</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Hi, I'm Omolara Adeboye</h2>
-      <p>Reliable cloud infrastructure and automation expert. 
-        I design and deploy scalable systems using AWS, Docker, Kubernetes, and CI/CD pipelines,
-        leveraging Python and AI-driven solutions to drive business efficiency and innovations.</p>
-      <a href="#projects" class="btn">View Projects</a>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Omolara Adeboye — a reliable cloud automation expert who designs and deploys scalable systems using AWS, Docker, Kubernetes, and CI/CD pipelines.
+      I also create practical content on personal finance, budgeting, and side hustles to help people build wealth with systems, not stress.
+    </p>
+    <p>Skilled in HTML, CSS, JavaScript, Git, Python, and infrastructure automation.</p>
+  </section>
+
+  <section id="youtube">
+    <h2>About the YouTube Channel</h2>
+    <p>
+      I run a faceless YouTube channel that shares simple, actionable tips on side hustles, personal finance, budgeting, and business systems.
+      My goal is to help beginners and entrepreneurs take control of their income with smart strategies and system-based solutions.
+    </p>
+    <p>
+      💡 Subscribe for weekly content on how to earn, save, and invest better — with templates, tools, and no fluff.
+    </p>
+    <p>
+      Join my email list below to receive free guides and weekly strategies. No spam, ever.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project One Screenshot" />
+      <h3>Project One</h3>
+      <p> RAG chatbot for intelligent document-based question answering</p>
+      <a href="https://github.com/laraadeboye/MULTICLOUD-AI-INFRA-AGENT-DEVOPS/tree/main/document-qna-chatbot">GitHub</a> | <a href="https://youtu.be/6w2Lf00omFU">Live Demo</a>
     </div>
   </section>
 
-  <section id="about" class="about">
-    <div class="container">
-      <img src="assets/images/profile-placeholder.jpg" alt="Profile Photo" class="profile-pic" />
-      <div>
-        <h3>About Me</h3>
-        <p>I am a developer who enjoys coding and solving problems. Skilled in HTML, CSS, JavaScript, and more.</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-        </ul>
-      </div>
-    </div>
+  <section id="newsletter">
+    <h2>Join My Newsletter</h2>
+    <p>
+      📩 Get weekly systems and financial tips to grow your income. You'll also receive a free PDF: "The $5K/month SideHustle Blueprint".
+    </p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
   </section>
 
-  <section id="projects" class="projects">
-    <div class="container">
-      <h3>Projects</h3>
-      <div class="project-grid">
-        <div class="project">
-          <img src="https://via.placeholder.com/300x200" alt="Project Screenshot">
-          <h4>Project One</h4>
-          <p>A web application that does amazing things.</p>
-          <a href="#" target="_blank">GitHub</a> | <a href="#" target="_blank">Demo</a>
-        </div>
-        <!-- Add more projects similarly -->
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="container">
-      <h3>Contact Me</h3>
-      <form id="contact-form">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="email" id="email" placeholder="Your Email" required />
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <div class="contact-info">
-        <p><i class="fas fa-map-marker-alt"></i> City, Country</p>
-        <p><i class="fas fa-envelope"></i> email@example.com</p>
-        <p>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </p>
-      </div>
-    </div>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>📍 Lagos, Nigeria</p>
+    <p>📧 lilyinves@laraadeboye.com</p>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Omolara Adeboye</p>
-      <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
-    </div>
+    <p>Connect with me:</p>
+    <a href="https://www.youtube.com/channel/UCpEdurMEMQfy9aq9TV9s1ug" target="_blank">YouTube</a> |
+    <a href="https://x.com/lara_adeboye" target="_blank">Twitter</a> |
+    <a href="https://linkedin.com/in/laraadeboye" target="_blank">LinkedIn</a>
+    <p>&copy; 2025 Omolara Adeboye. All rights reserved.</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
